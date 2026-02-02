@@ -7,11 +7,7 @@ export async function GET(
 ) {
   try {
     const { id } = params;
-    console.log('Fetching summary for resume ID:', id);
     const resume = resumeStore.get(id);
-    console.log('type2', typeof id);
-    console.log('keys in store:', Array.from(resumeStore['resumes'].keys()));
-    console.log('Retrieved resume:', resume);
 
     if (!resume) {
       return NextResponse.json(
