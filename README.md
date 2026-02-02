@@ -4,11 +4,11 @@ AI-powered web application that analyzes resumes and extracts structured informa
 
 ## Features
 
-- 📄 Drag & drop file upload (PDF and TXT)
-- 🤖 AI-powered parsing with Google Gemini
-- 📊 Extracts name, role, skills, experience, and education
-- 🎨 Modern, responsive UI with animations
-- ⚡ Real-time processing status
+-  Drag & drop file upload (PDF and TXT)
+-  AI-powered parsing with Google Gemini
+-  Extracts name, role, skills, experience, and education
+-  Modern, responsive UI with animations
+-  Real-time processing status
 
 ## Quick Start
 
@@ -33,19 +33,6 @@ npm run dev
 - **Backend:** Next.js API Routes
 - **AI:** Google Gemini
 - **Styling:** CSS Modules
-
-## Project Structure
-
-```
-app/
-├── api/resumes/          # API endpoints
-├── page.tsx              # Main UI
-└── globals.css           # Styles
-lib/
-├── ai-agent.ts          # AI integration
-├── parser.ts            # File parsing
-└── storage.ts           # Data storage
-```
 
 ## API Endpoints
 
