@@ -155,7 +155,7 @@ export default function Home() {
       console.log('Starting to poll for summary of resume ID:', data.id);
       await pollSummary(data.id);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Upload failed');
+      setError('Upload failed');
       setIsUploading(false);
     }
   };
