@@ -49,10 +49,8 @@ Important:
     } else if (jsonString.startsWith('```')) {
       jsonString = jsonString.replace(/```\n?/g, '').trim();
     }
-    console.log('Extracted JSON string:', jsonString);
 
     const parsedSummary = JSON.parse(jsonString);
-    console.log('Parsed resume summary:', parsedSummary);
 
     return {
       id: resumeId,
